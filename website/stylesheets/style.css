@@ -35,7 +35,7 @@ img {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
 	color: #333333;
-	text-shadow: #eeeeee;
+	text-shadow: 0.1em 0.1em #eeeeee;
 	box-shadow: 0 0 10px #000000;
 }
 .jumbotron .btn {
