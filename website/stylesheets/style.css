@@ -1,34 +1,39 @@
-body.site {
+.site {
   padding-top: 20px;
   padding-bottom: 20px;
-	background-color: 992283;
-	color: white
-
+	background-color: #992283;
+	color: white;
+}
 .header,
 .marketing,
 .footer {
-  pad-right: 15px;
-  pad-left: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
-.header
-  border-bottom: 1px solid #e5e5e5
-
-.header h3
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+.header h3 {
   padding-bottom: 19px;
   margin-top: 0;
   margin-bottom: 0;
   line-height: 40px;
+}
 
-#footer
-  padding-to: 19px;
-  border-to: 1px solid #e5e5e5
+img {
+  width: 300px;
+}
+
+.footer {
+  padding-top: 19px;
+  border-top: 1px solid #e5e5e5;
 }
 .container-narrow > hr {
   margin: 30px 0;
 }
-#jumbotron {
-  text-align: middle;
-  border-bottom: 1px big #e5e5e5;
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
 	color: #333333;
 	text-shadow: #eeeeee;
 	box-shadow: 0 0 10px #000000;

@@ -1,3 +1,3 @@
-$(function(){
-  console.log('Site loaded');
+$(document).ready(function() {
+    console.log("Site Loaded!");
 });
